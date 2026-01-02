@@ -62,15 +62,41 @@ export const About = () => {
             {/* Example Experience Items */}
             <div className="relative">
               <span className="absolute -left-[39px] top-1 w-5 h-5 rounded-full bg-blue-600 border-4 border-white dark:border-gray-950 shadow-sm"></span>
-              <h4 className="font-bold text-gray-900 dark:text-white">Senior Frontend Engineer</h4>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">2022 - Present</p>
-              <p className="text-gray-600 dark:text-gray-300">Building scalable web applications and design systems.</p>
+              <h4 className="font-bold text-gray-900 dark:text-white">TECHNICAL LEAD / CO-FOUNDER (REMOTE)</h4>
+              <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1">INDO CARIS INTERNATIONAL PT</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">2025 - Sekarang</p>
+              <ul className="list-disc list-outside ml-4 text-gray-600 dark:text-gray-300 text-sm space-y-1">
+                <li>Terlibat langsung dalam perancangan dan pengembangan software klien</li>
+                <li>Menangani arsitektur backend, integrasi API, dan database</li>
+                <li>Berkolaborasi dengan tim remote untuk delivery proyek</li>
+                <li>Terbiasa bekerja dengan workflow remote dan deadline</li>
+              </ul>
             </div>
+            
+            <div className="relative">
+               <span className="absolute -left-[39px] top-1 w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 border-4 border-white dark:border-gray-950"></span>
+              <h4 className="font-bold text-gray-900 dark:text-white">BACK END DEVELOPER</h4>
+              <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1">MAPELINE</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Juni 2023 - 2025</p>
+              <ul className="list-disc list-outside ml-4 text-gray-600 dark:text-gray-300 text-sm space-y-1">
+                <li>Mengembangkan REST API menggunakan Express & Firebase untuk aplikasi UMKM</li>
+                <li>Mengimplementasikan Firebase Authentication (login & role-based access)</li>
+                <li>Menyusun endpoint keuangan (income, expense) untuk kebutuhan bisnis</li>
+                <li>API digunakan dalam lingkungan production</li>
+              </ul>
+            </div>
+
             <div className="relative">
               <span className="absolute -left-[39px] top-1 w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 border-4 border-white dark:border-gray-950"></span>
-              <h4 className="font-bold text-gray-900 dark:text-white">Full Stack Developer</h4>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">2019 - 2022</p>
-              <p className="text-gray-600 dark:text-gray-300">Developed end-to-end solutions for various clients.</p>
+              <h4 className="font-bold text-gray-900 dark:text-white">SOFTWARE DEVELOPMENT MENTOR (PART-TIME)</h4>
+              <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1">RABBANI ISLAMIC SCHOOL</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">2025 - Sekarang</p>
+              <ul className="list-disc list-outside ml-4 text-gray-600 dark:text-gray-300 text-sm space-y-1">
+                <li>Membimbing &gt;30 siswa SMA dalam pengembangan web dan dasar software engineering</li>
+                <li>Mengajarkan HTML, CSS, JavaScript, dan konsep backend dasar</li>
+                <li>Melatih problem-solving, clean code, dan logika pemrograman</li>
+                <li>Mendampingi siswa dalam mini project dan presentasi hasil</li>
+              </ul>
             </div>
           </div>
         </div>
