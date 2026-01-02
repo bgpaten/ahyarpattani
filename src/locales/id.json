@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Membangun <br/> <highlight>pengalaman</highlight> digital yang bermakna.",
+    "subtitle": "Saya Full Stack Developer yang fokus membangun aplikasi web yang bersih, aksesibel, dan performan dengan teknologi modern.",
+    "cta_projects": "Lihat Karya Saya",
+    "cta_cv": "Unduh CV"
+  },
+  "home": {
+    "tech_stack": "Teknologi",
+    "featured_projects": "Proyek Unggulan",
+    "view_all": "Lihat semua proyek",
+    "latest_works": "Karya terpilih dari portofolio saya."
+  },
+  "projects": {
+    "title": "Proyek Saya",
+    "subtitle": "Pameran karya saya dalam pengembangan web, mobile, dan backend. Filter berdasarkan kategori untuk menjelajahi domain tertentu.",
+    "filter_all": "Semua Proyek",
+    "filter_web": "Aplikasi Web",
+    "filter_mobile": "Aplikasi Mobile",
+    "filter_backend": "Backend",
+    "filter_devops": "DevOps",
+    "no_projects": "Proyek tidak ditemukan",
+    "try_filter": "Coba ubah filter kategori."
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "experience": "Pengalaman",
+    "skills": "Alat & Keahlian",
+    "download_cv": "Unduh CV"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Punya ide proyek atau sekadar ingin mengobrol? Kirim pesan di bawah ini.",
+    "name_label": "Nama",
+    "email_label": "Email",
+    "message_label": "Pesan",
+    "send_btn": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success_title": "Pesan Terkirim!",
+    "success_msg": "Terima kasih telah menghubungi. Saya akan membalas segera.",
+    "send_another": "Kirim pesan lain",
+    "error_msg": "Gagal mengirim pesan. Silakan coba lagi."
+  }
+}

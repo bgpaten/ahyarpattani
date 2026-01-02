@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building digital <br/> <highlight>experiences</highlight> that matter.",
+    "subtitle": "I'm a Full Stack Developer focused on building clean, accessible, and performant web applications with modern technologies.",
+    "cta_projects": "View My Work",
+    "cta_cv": "Download CV"
+  },
+  "home": {
+    "tech_stack": "Tech Stack",
+    "featured_projects": "Featured Projects",
+    "view_all": "View all projects",
+    "latest_works": "Selected works from my portfolio."
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "A showcase of my work in web, mobile, and backend development. Filter by category to explore specific domains.",
+    "filter_all": "All Projects",
+    "filter_web": "Web Apps",
+    "filter_mobile": "Mobile Apps",
+    "filter_backend": "Backend",
+    "filter_devops": "DevOps",
+    "no_projects": "No projects found",
+    "try_filter": "Try changing the category filter."
+  },
+  "about": {
+    "title": "About Me",
+    "experience": "Experience",
+    "skills": "Tools & Skills",
+    "download_cv": "Download CV"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind or just want to chat? Send me a message below.",
+    "name_label": "Name",
+    "email_label": "Email",
+    "message_label": "Message",
+    "send_btn": "Send Message",
+    "sending": "Sending...",
+    "success_title": "Message Sent!",
+    "success_msg": "Thanks for reaching out. I'll get back to you soon.",
+    "send_another": "Send another message",
+    "error_msg": "Failed to send message. Please try again."
+  }
+}
