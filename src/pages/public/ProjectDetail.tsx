@@ -106,20 +106,9 @@ export const ProjectDetail = () => {
           {/* Adaptive Media Display */}
           <div className={cn(
             "rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm",
-            mode === 'mobile' ? "bg-gray-50 dark:bg-gray-800 p-8 flex justify-center" : "bg-gray-100 dark:bg-gray-800"
+            "bg-gray-100 dark:bg-gray-800"
           )}>
-            {mode === 'mobile' ? (
-              // Mobile Mockup
-              <div className="flex gap-8 overflow-x-auto pb-4 px-4 snap-x">
-                 {[project.thumbnail_url, ...project.media.map(m => m.url)].filter(Boolean).map((url, idx) => (
-                   <div key={idx} className="flex-none w-[280px] snap-center">
-                     <div className="relative aspect-[9/19] bg-black rounded-[2.5rem] border-8 border-gray-800 shadow-2xl overflow-hidden ring-1 ring-white/10">
-                       <img src={url!} alt={`Screen ${idx}`} className="w-full h-full object-cover" />
-                     </div>
-                   </div>
-                 ))}
-              </div>
-            ) : mode === 'web' ? (
+            {mode === 'web' || mode === 'mobile' ? (
               // Web Browser Mockup
               <div className="w-full">
                  <div className="bg-gray-800 rounded-t-xl p-3 flex gap-2 items-center">

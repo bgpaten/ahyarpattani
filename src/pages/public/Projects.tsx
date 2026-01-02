@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useProjects } from '../../hooks/useProjects';
 import { useDocumentTitle } from '../../hooks/useDocumentTitle';
-import { cn, getProjectDisplayMode } from '../../lib/utils';
+import { cn } from '../../lib/utils';
 import { Folder, Smartphone, Monitor, Terminal, Database } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -72,8 +72,6 @@ export const Projects = () => {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => {
-            const mode = getProjectDisplayMode(project.categories);
-            
             return (
               <Link 
                 key={project.id} 
@@ -83,20 +81,11 @@ export const Projects = () => {
                 {/* Thumbnail Area */}
                 <div className={cn(
                   "aspect-[4/3] relative overflow-hidden",
-                  mode === 'mobile' ? "bg-gray-900 p-8 flex justify-center items-center" : "bg-gray-50 dark:bg-gray-800"
+                  "bg-gray-50 dark:bg-gray-800"
                 )}>
-                  {mode === 'mobile' ? (
-                     <div className="relative w-full max-w-[140px] aspect-[9/19] bg-black rounded-[2rem] border-4 border-gray-800 shadow-2xl overflow-hidden">
-                        {project.thumbnail_url ? (
-                          <img src={project.thumbnail_url} alt={project.title} className="w-full h-full object-cover" />
-                        ) : (
-                          <div className="w-full h-full bg-gray-800" />
-                        )}
-                     </div>
-                  ) : (
-                     project.thumbnail_url ? (
+                     {project.thumbnail_url ? (
                         <img 
-                          src={project.thumbnail_url} 
+                          src={project.thumbnail_url || undefined} 
                           alt={project.title} 
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
@@ -104,8 +93,7 @@ export const Projects = () => {
                         <div className="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-600 bg-gray-100 dark:bg-gray-800">
                           <Monitor size={48} className="opacity-20" />
                         </div>
-                      )
-                  )}
+                      )}
                   
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 dark:group-hover:bg-white/5 transition-colors duration-300" />
